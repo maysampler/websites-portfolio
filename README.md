@@ -2,5 +2,3 @@
 Repository voor portfolio OPO websites
 
 Deze website bestaat uit een index.html en een contact.html
-
-Nu komt het probleem met mergen....
