@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<title>Contact</title>
+<link rel="stylesheet" href="CSS/stylesheet.css">
+<link rel="stylesheet" href="CSS/contact.css">
+</head>
+<body>
+    <div class="buttons-top">
+        <a href="cv.html">CV</a>
+        <a href="ervaring.html">Ervaring</a>
+        <a href="hobby.html">Hobbies</a>
+        <a href="index.html">Home</a>
+    </div>
+
+    <div class="contact-form">
+        <h1>Neem contact met mij op</h1>
+        <form action="mailto:bjarne.mondelaers@telenet.be" method="post" enctype="text/plain">
+            <label for="naam">Naam:</label>
+            <input type="text" id="naam" name="naam" required>
+
+            <label for="email">E-mailadres:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="bericht">Bericht:</label>
+            <textarea id="bericht" name="bericht" rows="5" required></textarea>
+
+            <button type="submit">Verstuur</button>
+        </form>
+    </div>
+</body>
